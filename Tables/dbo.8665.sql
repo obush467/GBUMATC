@@ -10,3 +10,8 @@
 )
 ON [PRIMARY]
 GO
+
+CREATE INDEX [_dta_index_8665_5_96263648__K2]
+  ON [dbo].[8665] ([НомерГУ])
+  ON [PRIMARY]
+GO

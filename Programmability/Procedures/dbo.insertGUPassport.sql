@@ -68,6 +68,7 @@ SET @newID=NEWID()
 						@Closed_loop,
 						@Electricity_connection)
 					update GUPassport set nextID=@newID where id=@lastID
+					insert into GUPassport_State(GUPassport_ID,startdate,State) values (@newID,@PassportDate,'сформирован')
 					set @updated=1
 					set @resultID=@newID
 					break
@@ -100,12 +101,14 @@ SET @newID=NEWID()
 						@Closed_loop,
 						@Electricity_connection)
 				update GUPassport set nextID=@newID where id=@lastID
+				insert into GUPassport_State(GUPassport_ID,startdate,State) values (@newID,@PassportDate,'сформирован')
 				set @resultID=@newID
 			end
 		close @c
 		deallocate @c
 	END
 	ELSE
+		begin
 		insert into GUPassport(ID,
 						Installation_ID,
 						AdminArea_ID,
@@ -137,6 +140,8 @@ SET @newID=NEWID()
 				@Reconstruction,
 				@Closed_loop,
 				@Electricity_connection)
+		insert into GUPassport_State(GUPassport_ID,startdate,State) values (@newID,@PassportDate,'сформирован')
+		end
 		RETURN
 END
 
