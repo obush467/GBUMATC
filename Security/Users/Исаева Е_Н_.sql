@@ -1,0 +1,3 @@
+﻿CREATE USER [Исаева Е.Н.]
+  WITHOUT LOGIN
+GO

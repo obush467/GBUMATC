@@ -1,0 +1,4 @@
+﻿CREATE FULLTEXT CATALOG [test_catalog]
+  AS DEFAULT
+  AUTHORIZATION [dbo]
+GO

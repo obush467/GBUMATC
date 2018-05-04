@@ -1,0 +1,3 @@
+﻿CREATE USER [Галиев В.И.]
+  WITHOUT LOGIN
+GO

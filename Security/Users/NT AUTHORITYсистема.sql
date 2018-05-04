@@ -1,0 +1,3 @@
+﻿CREATE USER [NT AUTHORITY\система]
+  FOR LOGIN [NT AUTHORITY\система]
+GO

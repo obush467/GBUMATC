@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [data_mos_ru] AUTHORIZATION [dbo]
+GO

@@ -1,0 +1,4 @@
+﻿CREATE QUEUE [dbo].[SourceQueue3] WITH STATUS = ON,
+RETENTION = OFF
+ON [PRIMARY]
+GO

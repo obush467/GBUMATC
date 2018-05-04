@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [fias_Moscow] AUTHORIZATION [dbo]
+GO

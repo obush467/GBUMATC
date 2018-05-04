@@ -1,0 +1,3 @@
+﻿CREATE USER [Кряков Л.Н.]
+  WITHOUT LOGIN
+GO

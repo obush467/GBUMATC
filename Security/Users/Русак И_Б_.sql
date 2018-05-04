@@ -1,0 +1,3 @@
+﻿CREATE USER [Русак И.Б.]
+  WITHOUT LOGIN
+GO

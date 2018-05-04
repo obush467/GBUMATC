@@ -1,0 +1,3 @@
+﻿CREATE USER [Савчук В.С.]
+  WITHOUT LOGIN
+GO

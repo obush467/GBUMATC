@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [fias_tmp] AUTHORIZATION [dbo]
+GO

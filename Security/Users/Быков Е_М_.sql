@@ -1,0 +1,3 @@
+﻿CREATE USER [Быков Е.М.]
+  WITHOUT LOGIN
+GO

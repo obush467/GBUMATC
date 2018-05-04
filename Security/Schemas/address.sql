@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [address] AUTHORIZATION [Бушмакин]
+GO

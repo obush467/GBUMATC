@@ -1,0 +1,3 @@
+﻿CREATE USER [Ямин Я.Ю.]
+  WITHOUT LOGIN
+GO

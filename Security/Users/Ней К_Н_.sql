@@ -1,0 +1,3 @@
+﻿CREATE USER [Ней К.Н.]
+  WITHOUT LOGIN
+GO

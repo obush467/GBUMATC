@@ -1,0 +1,3 @@
+﻿CREATE USER [Понин Я.И.]
+  WITHOUT LOGIN
+GO

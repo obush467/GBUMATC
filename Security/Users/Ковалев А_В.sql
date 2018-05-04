@@ -1,0 +1,3 @@
+﻿CREATE USER [Ковалев А.В]
+  WITHOUT LOGIN
+GO

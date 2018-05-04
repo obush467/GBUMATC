@@ -1,0 +1,3 @@
+﻿CREATE USER [Лукин В.В.]
+  WITHOUT LOGIN
+GO

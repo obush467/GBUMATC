@@ -1,0 +1,3 @@
+﻿CREATE USER [Хохлов Д.С.]
+  WITHOUT LOGIN
+GO

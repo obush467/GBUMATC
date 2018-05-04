@@ -1,0 +1,3 @@
+﻿CREATE USER [base]
+  WITHOUT LOGIN
+GO

@@ -1,0 +1,3 @@
+﻿CREATE USER [Мышев А.Б.]
+  WITHOUT LOGIN
+GO
